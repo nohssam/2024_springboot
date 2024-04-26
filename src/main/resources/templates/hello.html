@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> "${name}" 안녕하세요 </p>
+    <p th:text="${name} + '님 안녕하세요'"> "${name}" 안녕하세요 </p>
+    <p th:text="'나는 ' + ${age} + '살 입니다.'"> "${name}" 안녕하세요 </p>
+</body>
+</html>
